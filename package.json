@@ -1,0 +1,15 @@
+{
+  "name": "inkagent",
+  "private": true,
+  "version": "1.0.0",
+  "description": "InkAgent hackathon workspace",
+  "bin": {
+    "inkagent": "./cli/inkagent.js"
+  },
+  "scripts": {
+    "cli:help": "node ./cli/inkagent.js --help",
+    "cli:smoke": "node ./cli/inkagent.js smoke",
+    "cli:models": "node ./cli/inkagent.js models",
+    "cli:download-specialist": "node ./cli/inkagent.js download-specialist"
+  }
+}

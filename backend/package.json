@@ -1,0 +1,27 @@
+{
+  "name": "inkagent-backend",
+  "version": "1.0.0",
+  "description": "InkAgent backend - autonomous writing agent",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "smoke": "node smoke_test.js",
+    "download:specialist": "bash ../scripts/download_specialist_model.sh"
+  },
+  "keywords": [
+    "ai",
+    "writing",
+    "agent"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  }
+}
